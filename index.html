@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odin Landing Page</title>
+    <title></title>
 
     <link rel="stylesheet" href="./css/styles.css">
 
@@ -13,124 +13,98 @@
 
 </head>
 <body>
-    <div class="header">
-        <!-- Added flexbox here -->
-        <div class="row1">
-            <h1>CSS Flexbox</h1>
-            <ul>
-                <li><a href="#">Flex-grow</a></li>
-                <li><a href="#">Flex-shrink</a></li>
-                <li><a href="#">Flex-basis</a></li>
-            </ul>
-        </div>
-        <!-- Added flexbox here -->
-        <div class="row2">
-            <div class="header-text">
-                <h1>This website is awesome, because it's made with flexbox!</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam omnis corrupti voluptas iste officia amet, corporis fugiat veniam, deleniti dolore natus eaque reiciendis tenetur nesciunt quisquam accusantium ad animi eligendi?</p>
-                <button id="signup">Sign Up</button>
-            </div>
-            <img src="./images/image1.jpg" class="header-image">
-        </div>
-    </div>
-
-    <div class="container">
-        <h1 class="center">CSS Flexbox is a very useful tool in CSS</h1>
-        <!-- Added flexbox here -->
-        <div class="photo-grid">
-            <div class="grid-item">
-                <img src="./images/image2.jpg" alt="texture" class="grid-image">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ipsam corporis dolores architecto. Optio facere eos delectus sint possimus aspernatur velit, earum id quisquam doloremque laboriosam, tenetur sed saepe eum!</p>
-            </div>
-            <div class="grid-item">
-                <img src="./images/image3.jpg" alt="texture" class="grid-image">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est sint praesentium amet sequi, doloremque repellendus at assumenda labore veritatis blanditiis, itaque neque nostrum, quod quis! Ullam cupiditate suscipit reprehenderit nobis.</p>
-            </div>
-            <div class="grid-item">
-                <img src="./images/image4.jpg" alt="texture" class="grid-image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt aspernatur libero, mollitia explicabo nesciunt reprehenderit nulla minus odio ex temporibus error! Soluta commodi autem nulla vitae repellendus, earum delectus culpa?</p>
-            </div>
-            <div class="grid-item">
-                <img src="./images/image5.jpg" alt="texture" class="grid-image">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, enim! Obcaecati voluptatibus omnis sequi nemo quis facilis, blanditiis esse, repudiandae voluptatum beatae ad autem repellat praesentium! Harum eius aliquid repellendus.</p>
+   
+    <div class="section__one">
+        <div class="section__one__left">
+            <h1 class="section__one__left__h1">Flexbox in a nutshell</h1>
+            <h4 class="section__one__left__h4">This website is awesome because it was made using Flexbox.</h4>
+            <p>Learn CSS Flexbox in:</p>
+            <div class="section__one__left__buttons">
+                <button class="button"><a href="https://www.youtube.com/watch?v=K74l26pE4YA">100 seconds</a></button>
+                <button class="button"><a href="https://www.youtube.com/watch?v=phWxA89Dy94&list=PL9HxiUUAy4Ej1M8sca1S_LQWN_iRXtOcO&index=4">8 minutes</a></button>
+                <button class="button"><a href="https://www.youtube.com/watch?v=fYq5PXgSsbE">15 Minutes</a></button>
             </div>
         </div>
-        <div class="quote-section">
-            <em>
-                This is an inspiring quote, or a testimonial from a customer.
-                Maybe it's just filling up some space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
-            </em>
-            <h4>-Thor, God of Thunder</h4>
-        </div>
-        <div class="rough-text">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores minima ipsam cumque consequuntur ipsa temporibus optio odio ullam, voluptatum accusantium molestiae, ipsum earum pariatur blanditiis esse! Quam accusamus eaque quasi. lorem
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nemo similique, eum qui nostrum, dignissimos in tempora fuga explicabo dolores ex possimus vero deleniti accusamus quia ratione, dolor aliquam iste.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut quos fugit non, officiis animi quo obcaecati reprehenderit modi, voluptas odit nam? Facere impedit et officia, id modi quo sed odit.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid recusandae voluptates nisi non officiis veritatis illum animi. Cupiditate nemo perspiciatis fuga veritatis dolorem quas labore consectetur, illum optio impedit voluptate.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti porro voluptas nam doloribus dolorum voluptatum consectetur totam, necessitatibus est iste autem quibusdam expedita, vitae, architecto quisquam reiciendis dolore debitis accusantium.
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit fugiat ratione ipsa inventore dicta fuga iusto aspernatur, animi id officiis. Suscipit unde porro consectetur odio laborum praesentium repudiandae ipsam similique?
-            </p>
-        </div>
+        <img src="./images/image1.png" class="section__one__right__image">
+    </div>
+    
+    <div class="section__two">
+        <h4>There are three types of layouts in CSS:</h4>
+        <ol class="section__two__ol">
+            <li>Flow or normal flow</li>
+            <li>Flexbox layout</li>
+            <li>Grid layout</li>
+        </ol>
+        <p>Flexbox was designed for layout in one dimension - either a row or a column.</p>
+        <h4>To create a flexbox, set the display property on the parent container element to flex.</h4>
+        <h4>HTML</h4>
+        <img src="./images/image 2.png" class="section__two__images">
+        <h4>CSS</h4>
+        <img src="./images/image 4.png" class="section__two__images">
+        <h4>Output</h4>
+        <img src="./images/image 3.png" class="section__two__images">
     </div>
 
-    <h2 class="center">These boxes were given justify-content: space-around; property.</h2>
-    <div class="box-section1">
-        <div class="box type1"></div>
-        <div class="box type1"></div>
-        <div class="box type1"></div>
-        <div class="box type1"></div>
-        <div class="box type1"></div>
-        <div class="box type1"></div>
+    <div class="section__three">
+        <h4>Flexbox properties</h4>
+        <ul>
+            <li><span class="red__text">flex-direction</span> - defines in which direction the container wants to stack the flex items.</li>
+            <li><span class="red__text">flex-wrap</span> - specifies whether the flex items should wrap or not.</li>
+            <li><span class="red__text">flex-flow</span> - is a shorthand property for setting both the flex-direction and flex-wrap properties. (For ex: <span class="red__text">flex-flow</span><span class="blue__text">:row wrap;</span>)</li>
+            <li><span class="red__text">justify-content</span> - is used to align the flex items.</li>
+            <li><span class="red__text">align-items</span> - is used to align the flex items.</li>
+            <li><span class="red__text">align-content</span> - is used to align the flex lines.</li>
+        </ul>
     </div>
-    
 
-    <h2 class="center">These boxes were given justify-content: space-between; property.</h2>
-    <div class="box-section2">
-        <div class="box type2"></div>
-        <div class="box type2"></div>
-        <div class="box type2"></div>
-        <div class="box type2"></div>
-        <div class="box type2"></div>
-        <div class="box type2"></div>
+    <div class="section__four__info">These boxes used justify-content:space-around; property.</div>
+    <div class="space__around boxes">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
     </div>
-    
 
-    <h2 class="center">These boxes were given justify-content: center; property.</h2>
-    <div class="box-section3">
-        <div class="box type3"></div>
-        <div class="box type3"></div>
-        <div class="box type3"></div>
-        <div class="box type3"></div>
-        <div class="box type3"></div>
-        <div class="box type3"></div>
+    <div class="section__four__info">These boxes used justify-content:space-between; property.</div>
+    <div class="space__between boxes">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
     </div>
-    
 
-    <h2 class="center">These boxes were given justify-content: flex-start; property.</h2>
-    <div class="box-section4">
-        <div class="box type4"></div>
-        <div class="box type4"></div>
-        <div class="box type4"></div>
-        <div class="box type4"></div>
-        <div class="box type4"></div>
-        <div class="box type4"></div>
+    <div class="section__four__info">These boxes used justify-content:center; property.</div>
+    <div class="center boxes">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
     </div>
-    
-    
-    <h2 class="center">These boxes were given justify-content: flex-end; property.</h2>
-    <div class="box-section5">
-        <div class="box type5"></div>
-        <div class="box type5"></div>
-        <div class="box type5"></div>
-        <div class="box type5"></div>
-        <div class="box type5"></div>
-        <div class="box type5"></div>
+
+    <div class="section__four__info">These boxes used justify-content:flex-start; property.</div>
+    <div class="flex__start boxes">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
     </div>
-    
+
+    <div class="section__four__info">These boxes used justify-content:flex-end; property.</div>
+    <div class="flex__end boxes">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
 
     <div class="footer">
-        <h2>This text goes on the left</h2>
-        <h2>& this text goes on the right</h2>
+        <div class="footer__left">This text goes on the left</div>
+        <div class="footer__right">& this text goes on the right.</div>
     </div>
 </body>
 </html>
