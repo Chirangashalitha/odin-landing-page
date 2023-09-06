@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+    width: auto;
+    height: 500px;
+    padding: 10px 200px;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0px 0px 0px;
+    gap: 100px;
+}
+
+.container {
+    color:#1F2937;
+}
+
+.photo-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;  
+    gap: 50px;  
+}
+
+.grid-item {
+    width: 300px;
+    height: auto;
+    border: 2px solid #1F2937;
+}
+
+.rough-text {
+    margin: 200px 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.quote-section {
+    margin: 100px 150px;
+    font-size: 50px;
+    padding: 20px;
+}
+
+.box-section1 {
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-section2 {
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-section3 {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.box-section4 {
+    margin: 50px;
+    display: flex;
+    justify-content:flex-start;
+}
+
+.box-section5 {
+    margin: 50px;
+    display: flex;
+    justify-content:flex-end;
+}
+
+
+
+
+
+
+.header-image {
+    width: 400px;
+    height: auto;
+    border: 5px solid white;
+    border-radius: 10px;
+    flex: auto;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+
+a {
+    color: rgb(192, 192, 192);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
+}
+
+button {
+    margin: 20px 0px;
+    padding: 10px 30px;
+    background-color: #3882F6;
+    color: white;
+}
+
+.center {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.grid-image{
+    width: 298px;
+    height: 300px;
+}
+
+.quote-section > h4 {
+    font-size: 80px;
+    text-align: right;
+}
+
+.box {
+    margin: 20px;
+    width: 50px;
+    height: 100px;
+    background-color: #1F2937;
+}
+
